@@ -193,5 +193,4 @@ class NewsApp {
   }
 }
 
-// Инициализация приложения
 const app = new NewsApp();
