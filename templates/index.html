@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Любченко News - Новостное агентство</title>
+    <link rel="stylesheet" href="/static/css/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <nav class="navbar">
+        <div class="nav-container">
+          <h1
+            class="nav-logo"
+            onclick="app.loadArticles()"
+            style="cursor: pointer"
+          >
+            Любченко News
+          </h1>
+        </div>
+      </nav>
+
+      <main class="main-content">
+        <div class="container">
+          <div id="content">
+            <div class="loading">
+              <i class="fas fa-spinner fa-spin"></i>
+              <p>Загрузка новостей...</p>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <p>Выпускная аттестационная работа. Любченко 8К24</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+  </body>
+</html>
